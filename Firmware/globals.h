@@ -3,10 +3,13 @@
 #define MOUSE_MULT_HIGH 4
 #define MOUSE_MULT_LOW  2
 
-#define V_A 2  // Yellow
-#define V_B 3  // Green
-#define H_A 4  // Blue
-#define H_B 5  // Purple
+// Only four pins with interrupts available on the 2.0
+// https://www.pjrc.com/teensy/td_libs_Encoder.html
+// AVOID PIN 11
+#define V_A 5  // OC2 pin 6
+#define V_B 6  // OC2 pin 8
+#define H_A 7  // OC1 pin 6
+#define H_B 8  // OC1 pin 8
 
 
 #define BTNS 5 // Button Count
@@ -19,20 +22,13 @@
 
 byte pattern_order[] = {_SCROLL, _DPI, _LEFT, _MID, _RIGHT};
 
+// Avoid PIN 11 on 2.0
 byte btn_pins[] = {
-    6,  // L
-    7,  // R
-    8,  // M
-    10, // Scroll
-    9   // DPI
-};
-
-byte led_pins[] = {
-    14,  // L
-    15,  // R
-    16,   // M
-    18,  // Scroll
-    17  // DPI
+    21,  // L
+    20,  // R
+    19,  // M
+    NULL, // Scroll (unused)
+    18   // DPI (or unuse this one and swap NULL/17)
 };
 
 volatile unsigned long last_int[] = {
@@ -67,24 +63,6 @@ void read_btns(){
     for(byte i=0; i<BTNS; i++){
         btns[i].read();
     }
-}
-
-void setup_leds(){
-    pinMode(led_pins[_LEFT], OUTPUT);
-    pinMode(led_pins[_MID], OUTPUT);
-    pinMode(led_pins[_RIGHT], OUTPUT);
-    pinMode(led_pins[_DPI], OUTPUT);
-    pinMode(led_pins[_SCROLL], OUTPUT);
-
-    digitalWrite(led_pins[_LEFT], LOW);
-    digitalWrite(led_pins[_MID], LOW);
-    digitalWrite(led_pins[_RIGHT], LOW);
-    digitalWrite(led_pins[_DPI], LOW);
-    digitalWrite(led_pins[_SCROLL], LOW);
-}
-
-void set_led(byte i, bool state){
-    digitalWrite(led_pins[i], state);
 }
 
 #define LAST_EVENT_TIMEOUT 60000
