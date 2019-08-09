@@ -1,5 +1,6 @@
-#include "Encoder.h"
-#include "globals.h"
+#include <Encoder.h>
+#include "config.h"
+#include <Arduino.h>
 
 Encoder enc_h(H_A, H_B);
 Encoder enc_v(V_A, V_B);

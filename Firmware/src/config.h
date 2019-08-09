@@ -1,4 +1,4 @@
-#include "Button.h"
+#include <JC_Button.h>
 
 #define MOUSE_MULT_HIGH 4
 #define MOUSE_MULT_LOW  2
@@ -25,8 +25,8 @@ byte pattern_order[] = {_SCROLL, _DPI, _LEFT, _MID, _RIGHT};
 // Avoid PIN 11 on 2.0
 byte btn_pins[] = {
     21,  // L
-    20,  // R
-    19,  // M
+    19,  // R
+    20,  // M
     NULL, // Scroll (unused)
     18   // DPI (or unuse this one and swap NULL/17)
 };
