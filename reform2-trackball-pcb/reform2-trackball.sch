@@ -429,15 +429,15 @@ $EndComp
 $Comp
 L Connector:Conn_01x06_Female J2
 U 1 1 5D3375CD
-P 7000 2000
-F 0 "J2" V 7200 2050 50  0000 R CNN
-F 1 "Conn_01x06_Female" V 7100 2400 50  0000 R CNN
-F 2 "Connector_FFC-FPC:Hirose_FH12-6S-0.5SH_1x06-1MP_P0.50mm_Horizontal" H 7000 2000 50  0001 C CNN
-F 3 "~" H 7000 2000 50  0001 C CNN
-F 4 "Hirose" H 7000 2000 50  0001 C CNN "Manufacturer"
-F 5 "FH12-6S-0.5SH(55)" H 7000 2000 50  0001 C CNN "Manufacturer_No"
-	1    7000 2000
-	1    0    0    -1  
+P 7000 2100
+F 0 "J2" V 7200 2150 50  0000 R CNN
+F 1 "Conn_01x06_Female" V 7100 2500 50  0000 R CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x06_P2.54mm_Vertical" H 7000 2100 50  0001 C CNN
+F 3 "~" H 7000 2100 50  0001 C CNN
+F 4 "Hirose" H 7000 2100 50  0001 C CNN "Manufacturer"
+F 5 "FH12-6S-0.5SH(55)" H 7000 2100 50  0001 C CNN "Manufacturer_No"
+	1    7000 2100
+	1    0    0    1   
 $EndComp
 Text GLabel 6800 2000 0    60   Input ~ 0
 SDA
@@ -504,19 +504,6 @@ F 3 "" H 7950 3900 50  0000 C CNN
 F 4 "Kailh" H 7950 3900 50  0001 C CNN "Manufacturer"
 F 5 "CPG135001D02" H 7950 3900 50  0001 C CNN "Manufacturer_No"
 	1    7950 3900
-	1    0    0    -1  
-$EndComp
-$Comp
-L reform-trackball:Choc SW1
-U 1 1 5D501AF4
-P 7400 4000
-F 0 "SW1" H 7598 4121 50  0000 L CNN
-F 1 "Choc" H 7598 4030 50  0000 L CNN
-F 2 "keyswitches:PG1350" H 7400 4000 50  0001 C CNN
-F 3 "" H 7400 4000 50  0000 C CNN
-F 4 "Kailh" H 7400 4000 50  0001 C CNN "Manufacturer"
-F 5 "CPG135001D02" H 7400 4000 50  0001 C CNN "Manufacturer_No"
-	1    7400 4000
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -1115,6 +1102,19 @@ F 3 "" H 6400 1800 50  0001 C CNN
 	1    6400 1800
 	0    1    1    0   
 $EndComp
-Text Notes 6400 2950 0    60   ~ 0
-Attention! This\npinout is mirrored\nin respect to the \ntrackball sensor\nfor mechanical\nalignment!
+Text Notes 6200 2650 0    60   ~ 0
+TODO check pinout !
+$Comp
+L reform-trackball:Choc SW1
+U 1 1 5D501AF4
+P 7400 4000
+F 0 "SW1" H 7598 4121 50  0000 L CNN
+F 1 "Choc" H 7598 4030 50  0000 L CNN
+F 2 "keyswitches:PG1350" H 7400 4000 50  0001 C CNN
+F 3 "" H 7400 4000 50  0000 C CNN
+F 4 "Kailh" H 7400 4000 50  0001 C CNN "Manufacturer"
+F 5 "CPG135001D02" H 7400 4000 50  0001 C CNN "Manufacturer_No"
+	1    7400 4000
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
