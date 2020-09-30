@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name reform-trackball)(type Legacy)(uri ${KIPRJMOD}/reform-trackball.lib)(options "")(descr ""))
+  (lib (name reform-trackball-rescue)(type Legacy)(uri ${KIPRJMOD}/reform-trackball-rescue.lib)(options "")(descr ""))
+)

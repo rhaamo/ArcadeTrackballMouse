@@ -1,6 +1,0 @@
-{
-    "terminal.integrated.env.osx": {
-        "PATH": "/Users/dashie/.platformio/penv/bin:/Users/dashie/.platformio/penv:/usr/local/opt/ruby/bin:/usr/local/lib/ruby/gems/2.6.0/bin:/Applications/Postgres.app/Contents/Versions/latest/bin:/usr/local/opt/qt/bin:/Users/dashie/.pyenv/bin:/Users/dashie/.rbenv/bin:/Users/dashie/.tfenv/bin:/home/dashie/hack/rtl-sdr/tetra-listener/osmo-tetra/src:/home/dashie/hack/rtl-sdr/tetrapol-kit/build/apps:/Users/dashie/.local/bin:/Library/TeX/texbin:/opt/telegram:/Users/dashie/bin/Darwin:/Users/dashie/bin:/Users/dashie/perl5/bin:/home/dashie/dev/derp/pathbin:/Users/dashie/dev/z88dk/bin:/Users/dashie/bin/Darwin:/usr/local/Cellar/python3/3.4.3/bin:/home/dashie/Library/Python/3.5/bin/:/usr/local/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/go/bin:/Users/dashie/dev/go:/home/dashie/datas/Seafile/dev/go/bin:/Users/dashie/dev/go/bin:/usr/local/texlive/2016/bin/x86_64-linux:/Users/dashie/altera/13.0sp1//quartus/bin:/Users/dashie/altera/13.0sp1//nios2eds/bin:/opt/gradle/bin",
-        "PLATFORMIO_CALLER": "vscode"
-    }
-}

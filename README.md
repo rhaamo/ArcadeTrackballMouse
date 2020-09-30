@@ -1,14 +1,13 @@
-# Mouse-Trak Teensy conversion
+# Mouse-Trak drop-in PCB v2
 
 Got an old 1998 MOUSE-TRAK but the Z86 MCU seems fried.
 
-I decided to just replace it with a teensy.
+This project is based on the trackball PCBs and Firmware of the 
+https://source.mntmn.com/MNT/reform Open Source Portable Computer.
 
-# How
+See LICENSES for informations.
 
-Later.
+## CHANGES
 
-# Bill of Materials
+- imported the trackball two PCBs and firmware
 
-- [Vintage Mouse Track](http://www.itacsystems.com/industrial-desktops.html)
-- [Teensy 2.0](https://www.pjrc.com/store/teensy.html)

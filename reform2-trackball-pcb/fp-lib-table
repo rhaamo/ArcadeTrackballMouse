@@ -1,0 +1,6 @@
+(fp_lib_table
+  (lib (name reform2-motherboard)(type KiCad)(uri /home/mntmn/code/reform/reform2-motherboard/reform2-motherboard/footprints/reform2-motherboard.pretty)(options "")(descr ""))
+  (lib (name footprints)(type KiCad)(uri /home/mntmn/code/reform/reform2-motherboard/reform2-motherboard/footprints)(options "")(descr ""))
+  (lib (name reform2-keyboard)(type KiCad)(uri /home/mntmn/code/reform/reform2-keyboard-pcb/reform2-keyboard.pretty)(options "")(descr ""))
+  (lib (name keyswitches)(type KiCad)(uri /home/mntmn/code/reform/reform2-keyboard-pcb/keyswitches.pretty)(options "")(descr ""))
+)
