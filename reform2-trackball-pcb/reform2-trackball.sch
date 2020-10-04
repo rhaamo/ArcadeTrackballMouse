@@ -95,7 +95,7 @@ Wire Wire Line
 Text GLabel 6800 1900 0    60   Input ~ 0
 MT
 Wire Wire Line
-	6400 2300 6800 2300
+	6400 2200 6800 2200
 Wire Wire Line
 	5500 2550 5300 2550
 Wire Wire Line
@@ -104,98 +104,6 @@ Text GLabel 5500 2850 2    60   Input ~ 0
 MT
 Wire Wire Line
 	5300 2850 5500 2850
-Wire Wire Line
-	9050 3350 5300 3350
-Wire Wire Line
-	5300 3250 9600 3250
-$Comp
-L Mechanical:MountingHole_Pad MK5
-U 1 1 5B5F3DA7
-P 2150 5200
-F 0 "MK5" H 2250 5246 50  0000 L CNN
-F 1 "Mounting_Hole" H 2250 5155 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.2mm_M2_Pad" H 2150 5200 50  0001 C CNN
-F 3 "" H 2150 5200 50  0001 C CNN
-	1    2150 5200
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical:MountingHole_Pad MK6
-U 1 1 5B5F3DAD
-P 2150 5450
-F 0 "MK6" H 2250 5496 50  0000 L CNN
-F 1 "Mounting_Hole" H 2250 5405 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.2mm_M2_Pad" H 2150 5450 50  0001 C CNN
-F 3 "" H 2150 5450 50  0001 C CNN
-	1    2150 5450
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical:MountingHole_Pad MK7
-U 1 1 5B5F3DB3
-P 2150 5700
-F 0 "MK7" H 2250 5746 50  0000 L CNN
-F 1 "Mounting_Hole" H 2250 5655 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.2mm_M2_Pad" H 2150 5700 50  0001 C CNN
-F 3 "" H 2150 5700 50  0001 C CNN
-	1    2150 5700
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical:MountingHole_Pad MK8
-U 1 1 5B5F3DB9
-P 2150 5950
-F 0 "MK8" H 2250 5996 50  0000 L CNN
-F 1 "Mounting_Hole" H 2250 5905 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.2mm_M2_Pad" H 2150 5950 50  0001 C CNN
-F 3 "" H 2150 5950 50  0001 C CNN
-	1    2150 5950
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical:MountingHole_Pad MK9
-U 1 1 5B5F4257
-P 3100 5200
-F 0 "MK9" H 3200 5246 50  0000 L CNN
-F 1 "Mounting_Hole" H 3200 5155 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.2mm_M2_Pad" H 3100 5200 50  0001 C CNN
-F 3 "" H 3100 5200 50  0001 C CNN
-	1    3100 5200
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical:MountingHole_Pad MK10
-U 1 1 5B5F425D
-P 3100 5450
-F 0 "MK10" H 3200 5496 50  0000 L CNN
-F 1 "Mounting_Hole" H 3200 5405 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.2mm_M2_Pad" H 3100 5450 50  0001 C CNN
-F 3 "" H 3100 5450 50  0001 C CNN
-	1    3100 5450
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical:MountingHole_Pad MK11
-U 1 1 5B5F4263
-P 3100 5700
-F 0 "MK11" H 3200 5746 50  0000 L CNN
-F 1 "Mounting_Hole" H 3200 5655 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.2mm_M2_Pad" H 3100 5700 50  0001 C CNN
-F 3 "" H 3100 5700 50  0001 C CNN
-	1    3100 5700
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical:MountingHole_Pad MK12
-U 1 1 5B5F4269
-P 3100 5950
-F 0 "MK12" H 3200 5996 50  0000 L CNN
-F 1 "Mounting_Hole" H 3200 5905 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.2mm_M2_Pad" H 3100 5950 50  0001 C CNN
-F 3 "" H 3100 5950 50  0001 C CNN
-	1    3100 5950
-	1    0    0    -1  
-$EndComp
 $Comp
 L Device:C_Small C3
 U 1 1 5B5F4C0A
@@ -416,27 +324,16 @@ Wire Wire Line
 Wire Wire Line
 	2800 2550 2750 2550
 $Comp
-L Mechanical:MountingHole MK13
-U 1 1 5B61922F
-P 2650 4650
-F 0 "MK13" H 2750 4696 50  0000 L CNN
-F 1 "LOGO" H 2750 4605 50  0000 L CNN
-F 2 "reform2-motherboard:mntreform" H 2650 4650 50  0001 C CNN
-F 3 "" H 2650 4650 50  0001 C CNN
-	1    2650 4650
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector:Conn_01x06_Female J2
+L Connector:Conn_01x05_Female J2
 U 1 1 5D3375CD
-P 7000 2100
-F 0 "J2" V 7200 2150 50  0000 R CNN
-F 1 "Conn_01x06_Female" V 7100 2500 50  0000 R CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x06_P2.54mm_Vertical" H 7000 2100 50  0001 C CNN
-F 3 "~" H 7000 2100 50  0001 C CNN
-F 4 "Hirose" H 7000 2100 50  0001 C CNN "Manufacturer"
-F 5 "FH12-6S-0.5SH(55)" H 7000 2100 50  0001 C CNN "Manufacturer_No"
-	1    7000 2100
+P 7000 2000
+F 0 "J2" V 7200 2050 50  0000 R CNN
+F 1 "Conn_01x05_Female" V 7100 2400 50  0000 R CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x05_P2.54mm_Vertical" H 7000 2000 50  0001 C CNN
+F 3 "~" H 7000 2000 50  0001 C CNN
+F 4 "Hirose" H 7000 2000 50  0001 C CNN "Manufacturer"
+F 5 "FH12-6S-0.5SH(55)" H 7000 2000 50  0001 C CNN "Manufacturer_No"
+	1    7000 2000
 	1    0    0    1   
 $EndComp
 Text GLabel 6800 2000 0    60   Input ~ 0
@@ -455,81 +352,73 @@ Connection ~ 6650 3950
 Wire Wire Line
 	6650 3950 6800 3950
 $Comp
-L reform-trackball:Choc SW5
+L Switch:SW_Push SW5
 U 1 1 5D4FC0BB
-P 9600 3600
-F 0 "SW5" H 9798 3721 50  0000 L CNN
-F 1 "Choc" H 9798 3630 50  0000 L CNN
-F 2 "keyswitches:PG1350" H 9600 3600 50  0001 C CNN
-F 3 "" H 9600 3600 50  0000 C CNN
-F 4 "Kailh" H 9600 3600 50  0001 C CNN "Manufacturer"
-F 5 "CPG135001D02" H 9600 3600 50  0001 C CNN "Manufacturer_No"
-	1    9600 3600
-	1    0    0    -1  
+P 9600 3800
+F 0 "SW5" H 9798 3921 50  0000 L CNN
+F 1 "btn5" H 9798 3830 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 9600 3800 50  0001 C CNN
+F 3 "" H 9600 3800 50  0000 C CNN
+F 4 "Kailh" H 9600 3800 50  0001 C CNN "Manufacturer"
+F 5 "CPG135001D02" H 9600 3800 50  0001 C CNN "Manufacturer_No"
+	1    9600 3800
+	0    -1   -1   0   
 $EndComp
 $Comp
-L reform-trackball:Choc SW4
+L Switch:SW_Push SW4
 U 1 1 5D4FC3B4
-P 9050 3700
-F 0 "SW4" H 9248 3821 50  0000 L CNN
-F 1 "Choc" H 9248 3730 50  0000 L CNN
-F 2 "keyswitches:PG1350" H 9050 3700 50  0001 C CNN
-F 3 "" H 9050 3700 50  0000 C CNN
-F 4 "Kailh" H 9050 3700 50  0001 C CNN "Manufacturer"
-F 5 "CPG135001D02" H 9050 3700 50  0001 C CNN "Manufacturer_No"
-	1    9050 3700
-	1    0    0    -1  
+P 9050 3800
+F 0 "SW4" H 9248 3921 50  0000 L CNN
+F 1 "btn4" H 9248 3830 50  0000 L CNN
+F 2 "Button_Switch_THT:Push_E-Switch_KS01Q01" H 9050 3800 50  0001 C CNN
+F 3 "" H 9050 3800 50  0000 C CNN
+F 4 "Kailh" H 9050 3800 50  0001 C CNN "Manufacturer"
+F 5 "CPG135001D02" H 9050 3800 50  0001 C CNN "Manufacturer_No"
+	1    9050 3800
+	0    -1   -1   0   
 $EndComp
 $Comp
-L reform-trackball:Choc SW3
+L d_switchs:SubminiatureSPDT SW3
 U 1 1 5D4FE1B3
-P 8500 3800
-F 0 "SW3" H 8698 3921 50  0000 L CNN
-F 1 "Choc" H 8698 3830 50  0000 L CNN
-F 2 "keyswitches:PG1350" H 8500 3800 50  0001 C CNN
-F 3 "" H 8500 3800 50  0000 C CNN
-F 4 "Kailh" H 8500 3800 50  0001 C CNN "Manufacturer"
-F 5 "CPG135001D02" H 8500 3800 50  0001 C CNN "Manufacturer_No"
-	1    8500 3800
-	1    0    0    -1  
+P 8500 3850
+F 0 "SW3" H 8698 3971 50  0000 L CNN
+F 1 "right" H 8698 3880 50  0000 L CNN
+F 2 "d_switchs:SubminiatureSPDT" H 8500 3850 50  0001 C CNN
+F 3 "" H 8500 3850 50  0000 C CNN
+F 4 "Kailh" H 8500 3850 50  0001 C CNN "Manufacturer"
+F 5 "CPG135001D02" H 8500 3850 50  0001 C CNN "Manufacturer_No"
+	1    8500 3850
+	0    -1   -1   0   
 $EndComp
 $Comp
-L reform-trackball:Choc SW2
+L d_switchs:SubminiatureSPDT SW2
 U 1 1 5D4FE717
-P 7950 3900
-F 0 "SW2" H 8148 4021 50  0000 L CNN
-F 1 "Choc" H 8148 3930 50  0000 L CNN
-F 2 "keyswitches:PG1350" H 7950 3900 50  0001 C CNN
-F 3 "" H 7950 3900 50  0000 C CNN
-F 4 "Kailh" H 7950 3900 50  0001 C CNN "Manufacturer"
-F 5 "CPG135001D02" H 7950 3900 50  0001 C CNN "Manufacturer_No"
-	1    7950 3900
-	1    0    0    -1  
+P 7950 4050
+F 0 "SW2" H 8148 4171 50  0000 L CNN
+F 1 "middle" H 8148 4080 50  0000 L CNN
+F 2 "d_switchs:SubminiatureSPDT" H 7950 4050 50  0001 C CNN
+F 3 "" H 7950 4050 50  0000 C CNN
+F 4 "Kailh" H 7950 4050 50  0001 C CNN "Manufacturer"
+F 5 "CPG135001D02" H 7950 4050 50  0001 C CNN "Manufacturer_No"
+	1    7950 4050
+	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	5300 3450 8500 3450
+	9600 4000 9600 4300
 Wire Wire Line
-	7950 3550 5300 3550
-Wire Wire Line
-	5300 3650 7400 3650
-Wire Wire Line
-	9600 3800 9600 4300
-Wire Wire Line
-	7400 4300 7400 4200
+	7400 4300 7400 4250
 Wire Wire Line
 	7400 4300 7950 4300
-Wire Wire Line
-	7950 4100 7950 4300
 Connection ~ 7950 4300
 Wire Wire Line
 	7950 4300 8500 4300
 Wire Wire Line
-	8500 4000 8500 4300
+	8500 4100 8500 4300
 Connection ~ 8500 4300
 Wire Wire Line
 	8500 4300 9050 4300
 Wire Wire Line
-	9050 3900 9050 4300
+	9050 4000 9050 4300
 Connection ~ 9050 4300
 Wire Wire Line
 	9050 4300 9600 4300
@@ -928,48 +817,6 @@ Connection ~ 8000 2400
 Wire Wire Line
 	8000 2400 8000 2350
 $Comp
-L power:GND #PWR0110
-U 1 1 5DB1EB81
-P 1950 6150
-F 0 "#PWR0110" H 1950 5900 50  0001 C CNN
-F 1 "GND" H 1955 5977 50  0000 C CNN
-F 2 "" H 1950 6150 50  0001 C CNN
-F 3 "" H 1950 6150 50  0001 C CNN
-	1    1950 6150
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2150 5550 3100 5550
-Wire Wire Line
-	3100 5300 2150 5300
-Wire Wire Line
-	2150 5800 3100 5800
-Wire Wire Line
-	3100 6050 2150 6050
-Wire Wire Line
-	2150 6050 1950 6050
-Wire Wire Line
-	1950 6050 1950 6150
-Connection ~ 2150 6050
-Wire Wire Line
-	1950 6050 1950 5800
-Wire Wire Line
-	1950 5800 2150 5800
-Connection ~ 1950 6050
-Connection ~ 2150 5800
-Wire Wire Line
-	2150 5550 1950 5550
-Wire Wire Line
-	1950 5550 1950 5800
-Connection ~ 2150 5550
-Connection ~ 1950 5800
-Wire Wire Line
-	1950 5550 1950 5300
-Wire Wire Line
-	1950 5300 2150 5300
-Connection ~ 1950 5550
-Connection ~ 2150 5300
-$Comp
 L Device:R_Small R8
 U 1 1 5DB926FB
 P 2250 2950
@@ -1079,16 +926,15 @@ Wire Wire Line
 	4600 5250 4600 4850
 Wire Wire Line
 	4500 4850 4500 5050
-NoConn ~ 6800 2200
 $Comp
 L power:+3V3 #PWR0104
 U 1 1 5D33DEC6
-P 6400 2300
-F 0 "#PWR0104" H 6400 2150 50  0001 C CNN
-F 1 "+3V3" H 6415 2473 50  0000 C CNN
-F 2 "" H 6400 2300 50  0001 C CNN
-F 3 "" H 6400 2300 50  0001 C CNN
-	1    6400 2300
+P 6400 2200
+F 0 "#PWR0104" H 6400 2050 50  0001 C CNN
+F 1 "+3V3" H 6415 2373 50  0000 C CNN
+F 2 "" H 6400 2200 50  0001 C CNN
+F 3 "" H 6400 2200 50  0001 C CNN
+	1    6400 2200
 	0    -1   -1   0   
 $EndComp
 $Comp
@@ -1105,16 +951,99 @@ $EndComp
 Text Notes 6200 2650 0    60   ~ 0
 TODO check pinout !
 $Comp
-L reform-trackball:Choc SW1
+L d_switchs:SubminiatureSPDT SW1
 U 1 1 5D501AF4
 P 7400 4000
 F 0 "SW1" H 7598 4121 50  0000 L CNN
-F 1 "Choc" H 7598 4030 50  0000 L CNN
-F 2 "keyswitches:PG1350" H 7400 4000 50  0001 C CNN
+F 1 "left" H 7598 4030 50  0000 L CNN
+F 2 "d_switchs:SubminiatureSPDT" H 7400 4000 50  0001 C CNN
 F 3 "" H 7400 4000 50  0000 C CNN
 F 4 "Kailh" H 7400 4000 50  0001 C CNN "Manufacturer"
 F 5 "CPG135001D02" H 7400 4000 50  0001 C CNN "Manufacturer_No"
 	1    7400 4000
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	9600 3250 9600 3600
+Wire Wire Line
+	5300 3250 9600 3250
+Wire Wire Line
+	9050 3350 9050 3600
+Wire Wire Line
+	5300 3350 9050 3350
+Wire Wire Line
+	8600 3450 8600 3700
+Wire Wire Line
+	5300 3450 8600 3450
+Wire Wire Line
+	8050 3550 8050 3900
+Wire Wire Line
+	5300 3550 8050 3550
+Wire Wire Line
+	7500 3650 7500 3850
+Wire Wire Line
+	5300 3650 7500 3650
+NoConn ~ 8400 3700
+NoConn ~ 7850 3900
+NoConn ~ 7300 3850
+Wire Notes Line
+	8700 4750 10000 4750
+Wire Notes Line
+	10000 4750 10000 6250
+Wire Notes Line
+	10000 6250 8700 6250
+Wire Notes Line
+	8700 6250 8700 4750
+Text Notes 9300 5150 0    60   ~ 0
+ball
+Text Notes 9250 5400 0    60   ~ 0
+middle
+Text Notes 9700 5250 1    60   ~ 0
+right
+Text Notes 9100 5200 1    60   ~ 0
+left
+Text Notes 8900 5700 0    60   ~ 0
+4th
+Wire Wire Line
+	1950 5800 2150 5800
+Wire Wire Line
+	1950 6050 1950 5800
+Wire Wire Line
+	1950 6050 1950 6150
+Connection ~ 1950 6050
+Wire Wire Line
+	2150 6050 1950 6050
+$Comp
+L power:GND #PWR0110
+U 1 1 5DB1EB81
+P 1950 6150
+F 0 "#PWR0110" H 1950 5900 50  0001 C CNN
+F 1 "GND" H 1955 5977 50  0000 C CNN
+F 2 "" H 1950 6150 50  0001 C CNN
+F 3 "" H 1950 6150 50  0001 C CNN
+	1    1950 6150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad MK8
+U 1 1 5B5F3DB9
+P 2150 5950
+F 0 "MK8" H 2250 5996 50  0000 L CNN
+F 1 "Mounting_Hole" H 2250 5905 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2_Pad" H 2150 5950 50  0001 C CNN
+F 3 "" H 2150 5950 50  0001 C CNN
+	1    2150 5950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad MK7
+U 1 1 5B5F3DB3
+P 2150 5700
+F 0 "MK7" H 2250 5746 50  0000 L CNN
+F 1 "Mounting_Hole" H 2250 5655 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2_Pad" H 2150 5700 50  0001 C CNN
+F 3 "" H 2150 5700 50  0001 C CNN
+	1    2150 5700
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
